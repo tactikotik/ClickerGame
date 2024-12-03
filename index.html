@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="./fonts/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Points count: <span id="score">0</span></h1>
+        <button id="click-btn" class="click-btn">Click me!</button>
+
+        <div class="shop">
+            <div class="shop-item">
+                <button id="buy-worker" class="worker">Hire Worker <span id="worker-cost">(10pts)</span></button>
+                <p class="counter">Workers: <span id="workers">0</span></p>
+            </div>
+            <div class="shop-item">
+                <button id="buy-farmer" class="farmer">Hire Farmer<span id="farmer-cost">(50pts)</span></button>
+                <p class="counter">Farmers: <span id="farmers">0</span></p>
+            </div>
+            <div class="shop-item">
+                <button id="buy-engineer" class="engineer">Hire Engineer<span id="engineer-cost">(200pts)</span></button>
+                <p class="counter">Engineers: <span id="engineers">0</span></p>
+            </div>
+            <div class="shop-item">
+                <button id="upgrade-btn" class="upgrade">Upgrade(2000pts)</button>
+                <p class="level-counter">Level: <span id="increment-level">1</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./fonts/scripts/script.js"></script>
+</body>
+</html>

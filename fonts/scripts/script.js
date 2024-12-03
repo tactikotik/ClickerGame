@@ -144,4 +144,4 @@ setInterval(() => {
 
 setInterval(() => {
     getRandomEvent(events);
-}, 100000); 
+}, 120000); 
